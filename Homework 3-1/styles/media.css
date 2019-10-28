@@ -17,24 +17,24 @@
         height: 21px;
     }
 
-    .main .main-top {
-        height: 1500px;
-    }
-
     .main-top .left-area {
         margin-left: 0;
     }
 
     .right-area .tag-title {
-        font-size: 19px;
+        font-size: 28px;
+    }
+
+    .main-top .right-area {
+        margin-left: 0;
     }
 
     .right-area .code-area {
-        margin-left: -35px;
+        margin-left: 0;
     }
 
     .code-area .code-img {
-        padding-left: 0;
+        margin-left: 0;
         width: 288px;
     }
 
@@ -42,18 +42,61 @@
         margin-top: 575px;
     }
 
-    .master-description .master-txt {
-        font-size: 13px;
+    .code-area .code-line {
+        height: 0;
     }
 
-    .master-slider .arrow {
-        font-size: 15px;
+    .main-middle .middle-line {
+        width: 0;
     }
+
+    .block-area .main-bottom-line {
+        width: 0;
+    }
+
+    .footer .email {
+        width: 240px;
+    }
+
+    .footer-middle .footer-line {
+        width: 0;
+    }
+
 }
 
 @media all and (max-width: 450px) {
     .header-middle .title-description {
         font-size: 20px;
     }    
+}
+
+@media all and (max-width: 1000px) {
+    .main .main-top {
+        height: 1500px;
+    }
+
+    .code-area .code-img {
+        margin-left: 0;
+        width: 288px;
+    }
+
+    .main-middle .middle-line {
+        width: 0;
+    }
+}
+
+@media all and (max-width: 700px) {
+    .main .main-top {
+        height: 1500px;
+    }
+
+    .code-area .code-img {
+        margin-left: 0;
+        width: 288px;
+    }
+
+    .main-middle .middle-line {
+        width: 0;
+    }
 }
 
